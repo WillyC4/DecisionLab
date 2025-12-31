@@ -178,3 +178,9 @@ if st.button("Calcular"):
         st.pyplot(fig)
     except Exception as e:
         st.error(f"Error: {e}")
+
+st.markdown("---")  # línea divisoria opcional
+st.markdown(
+    "<p style='text-align: center; font-size: 12px; color: gray;'>Desarrollado por Micaela Corrales</p>",
+    unsafe_allow_html=True
+)
